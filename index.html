@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <button class="menu-toggle" id="menu-toggle">
+        <span class="icon-wrapper">
+          <i class="fas fa-bars" id="menu-icon"></i>
+          <span class="pulse-circle" id="pulse-circle"></span>
+        </span>
+      </button>    
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+        <li><a href="#projects"><i class="fas fa-lightbulb"></i> Projects</a></li>
+        <li><a href="#certifications"><i class="fas fa-award"></i> Certifications</a></li>
+        <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <!-- Home -->
+  <section id="home">
+    <div class="home-container">
+      <div class="home-content">
+        <h2 class="greeting">Hello, I'm</h2>
+        <h1 class="name">Devisetti Satyaveni</h1>
+        <h2 class="role">A Web Developer</h2>
+        <h3 class="welcome">Welcome to my Portfolio</h3>
+      </div>
+      <div class="home-image">
+        <img src="/images/satya.png" alt="Professional Avatar">
+      </div>
+    </div>
+  </section>
+
+
+  <hr class="section-divider"/>
+
+  <!-- About -->
+  <section id="about">
+    <div class="about-container">
+      <h2 style="font-size: 2.1rem;">About Me</h2>
+      <p class="intro">
+        Hey Hi, I'm <strong>Satyaveni</strong>. I'm deeply passionate about building innovative and useful web applications that not only solve real-world problems but also serve society in impactful ways.
+      </p>
+      <p class="intro">
+        My core interest lies in using <strong>AI tools</strong> and <strong>Front-End technologies</strong> to develop smart, interactive, and user-friendly web applications.
+      </p>
+      <div class="about-details">
+        <ul>
+          <li><strong>Name:</strong> Satyaveni Devisetti</li>
+          <li><strong>Age:</strong> <span id="age"></span></li>
+          <li><strong>Date of Birth:</strong> May 9, 2004</li>
+          <li><strong>Availability:</strong> Open to Opportunities</li>
+          <li><strong>Expected Roles:</strong> Front-End Developer, Web Developer</li>
+          <li><strong>Qualification:</strong> B.Tech in Electronics and Communication Engineering (ECE)</li>
+          <li><strong>Languages:</strong> Telugu, English</li>
+          <li><strong>Interests:</strong> Web Development, AI, Problem Solving, UI/UX</li>
+          <li><strong>Tools & Technologies:</strong> Web Development, Generative AI Tools, Prompt Engineering</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider"/>
+
+  <!-- Education -->
+  <section id="education" class="education-section">
+    <h2>Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon">🎓</div>
+        <div class="timeline-content">
+          <h3>B.Tech in Electronics and Communication Engineering</h3>
+          <p><strong>Institution:</strong> RGUKT</p>
+          <p><strong>CGPA:</strong> 8.70</p>
+          <p><strong>Years:</strong> 2021 – 2025</p>
+          <p><strong>Location:</strong> Srikakulam, AP</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon">🏫</div>
+        <div class="timeline-content">
+          <h3>Pre-University Course (PUC)</h3>
+          <p><strong>Institution:</strong> RGUKT</p>
+          <p><strong>CGPA:</strong> 9.35</p>
+          <p><strong>Years:</strong> 2019 – 2021</p>
+          <p><strong>Location:</strong> Srikakulam, AP</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon">🏫</div>
+        <div class="timeline-content">
+          <h3>Secondary School Education (SSC)</h3>
+          <p><strong>School:</strong> ZP High School, Unduru</p>
+          <p><strong>CGPA:</strong> 10.0</p>
+          <p><strong>Year:</strong> 2019</p>
+          <p><strong>Location:</strong> Kakinada, AP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="section-divider"/>
+
+  <!-- Skills -->
+  <section id="skills" class="skills-section">
+    <h2 style="font-size: 2.1rem;">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill"><img src="/images/aitools.png" alt="Bootstrap"><span>Generative AI Tools</span></div>
+      <div class="skill"><img src="/images/python.png" alt="Python"><span>Python</span></div>
+      <div class="skill"><img src="/images/html.png" alt="HTML"><span>HTML</span></div>
+      <div class="skill"><img src="/images/css-3.png" alt="CSS"><span>CSS</span></div>
+      <div class="skill"><img src="/images/java-script.png" alt="JavaScript"><span>JavaScript</span></div>
+      <div class="skill"><img src="/images/git.png" alt="Git"><span>Git</span></div>
+      <div class="skill"><img src="/images/github.png" alt="GitHub"><span>GitHub</span></div>
+      <div class="skill"><img src="/images/dsa.png" alt="DSA"><span>DSA</span></div>
+      <div class="skill"><img src="/images/vscode.png" alt="VSCode"><span>VSCode</span></div>
+      <div class="skill"><img src="/images/mysql.png" alt="MySQL"><span>MySQL</span></div>
+      <div class="skill"><img src="/images/react.png" alt="React"><span>React</span></div>
+      <div class="skill"><img src="/images/bootstrap.png" alt="Bootstrap"><span>Bootstrap</span></div>
+    </div>
+  </section>
+
+  <hr class="section-divider"/>
+
+
+<!--PROJECTS SECTION-->
+<section id="projects">
+  <h2 id="projectheading">Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>🧠 Mind Maze</h3>
+        <a href="https://satyaveni-devisetti.github.io/MindMaze/" target="_blank">
+          <img src="images/mindmaze.png" alt="Mind Maze Project" class="project-img" onclick="openProjectModal(this)">
+        </a>
+        <p><strong>Type:</strong> Puzzle Game (Web-based)</p>
+        <p><strong>Description:</strong> MindMaze is a web-based memory game where players view a 3×3 image grid, memorize positions, and then drag and drop them correctly to boost focus and visual recall skills.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <a href="https://satyaveni-devisetti.github.io/MindMaze/" target="_blank" id="projectlink">🔗 View Project Here</a>
+      </div>
+
+      <div class="project-card">
+        <h3>
+          <img src="images/qr-icon.png" alt="QR Icon" style="width: 40px; height: 40px; vertical-align: middle; margin-right: 6px;">
+          QR File Sharing System
+        </h3>
+        <a href="https://satyaveni-devisetti.github.io/QR-File-Sharing/" target="_blank">
+          <img src="images/QR File.png" alt="QR File Sharing System" class="project-img" onclick="openProjectModal(this)">
+        </a>
+        <p><strong>Type:</strong> File Sharing Web Application</p>
+        <p><strong>Description:</strong> A simple and secure file-sharing system that lets users upload files, set a password, and generate a unique QR code for quick, protected access or download from any device</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript, QR Code Library, Cloudinary</p>
+        <a href="https://satyaveni-devisetti.github.io/QR-File-Sharing/" target="_blank" id="projectlink">🔗 View Project Here</a>
+      </div>
+
+      <div class="project-card">
+        <h3>📂🔒 DocVault</h3>
+        <a href="#" target="_blank">
+          <img src="images/QR File.png" alt="QR File Sharing System" class="project-img" onclick="openProjectModal(this)">
+        </a>
+        <p><strong>Type:</strong> Secure Document Storage Web Application</p>
+        <p><strong>Description:</strong> A web-based application enabling users to securely store, access, and manage documents with password protection, ensuring privacy and data security while allowing easy retrieval and organization of files.
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Python (Flask), QR Code Library</p>
+        <a href="#" target="_blank" id="projectlink">🔗 View Project Here</a>
+      </div>
+
+    </div>
+</section>
+
+
+<hr class="section-divider"/>
+
+<!-- Certification Section -->
+<section id="certifications">
+      <h1 style="font-size: 2.1rem;">Certifications</h1>
+      <div class="gallery">
+        <div class="certificate"><img src="/images/Jignasa_Internship_Certificate.png" alt="Certificate 1" /></div>
+        <div class="certificate"><img src="/images/SQL_Basic.png" alt="Certificate 6" /></div>
+        <div class="certificate"><img src="/images/TechSakshyam.png" alt="Certificate 8" /></div>
+        <div class="certificate"><img src="/images/python_basic.png" alt="Certificate 8" /></div>
+        <div class="certificate"><img src="/images/7_Habits_Certificate.png" alt="Certificate 2" /></div>
+        <div class="certificate"><img src="/images/SQL_Intermediate.png" alt="Certificate 7" /></div>
+        <div class="certificate"><img src="/images/Academor_Course_Completion_Certificate.png" alt="Certificate 3" /></div>
+        <div class="certificate"><img src="/images/Academor_Internship_Completion_Certificate.png" alt="Certificate 4" /></div>
+        <div class="certificate"><img src="/images/LinkedIn_Learning_Certificate.png" alt="Certificate 5" /></div>
+        <div class="certificate"><img src="/images/Tihan.png" alt="Certificate 9" /></div>
+
+      </div>
+      
+</section>
+
+  <!-- Modal for Certificates -->
+  <div class="modal-cert" id="certModal">
+    <span class="close-btn" id="closeCertBtn">&times;</span>
+    <img id="certModalImg" src="" alt="Expanded Certificate" />
+  </div>
+
+  <!-- Modal for Achievements -->
+  <div class="modal-cert" id="achieveModal">
+    <span class="close-btn" id="closeAchieveBtn">&times;</span>
+    <img id="achieveModalImg" src="" alt="Expanded Achievement" />
+  </div>
+
+  <hr class="section-divider"/>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <div class="container">
+        <h2 class="section-title" style="font-size: 2.1rem;">Achievements</h2>
+        <div class="achievement-content">
+            <p class="achievement-description">
+              I participated in the 100 Days Coding Sprint by Unstop, where I began solving coding challenges. I achieved a rank of 268 and continue to actively solve problems. 
+              Throughout this journey, I earned several badges in recognition of my efforts
+            </p>
+            <div class="images">
+                <div class="badge">
+                    <h3>Badges Earned</h3>
+                    <img src="images/badges.png" alt="Coding Sprint Badges" class="achievement-img">
+                </div>
+                <div class="leaderboard">
+                    <h3>Leaderboard Rank</h3>
+                    <img src="images/leaderboard.png" alt="Leaderboard" class="achievement-img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <hr class="section-divider"/>
+
+  <!-- Contact -->
+  <section id="contact" >
+    <h2 style="font-size: 2.1rem;">Contact</h2>
+    <p style="color: black;">I would be happy to connect. Please feel free to reach out.</p>
+
+    <div class="contact-icons">
+      <div class="contact-icon" title="Email">
+        <a href="mailto:devisettisatyaveni362@gmail.com">
+          <img src="/images/email-icon.png" alt="Email Icon" class="icon" />
+          <div class="contact-info">
+            <p class="label"><b>Email</b></p>
+            <p class="detail">devisettisatyaveni362@gmail.com</p>
+          </div>
+        </a>
+      </div>
+      <div class="contact-icon" title="Call">
+        <a href="tel:+918247272497">
+          <img src="/images/call-icon.png" alt="Call Icon" class="icon" />
+          <div class="contact-info">
+            <p class="label"><b>Phone</b></p>
+            <p class="detail">+91 8247272497</p>
+          </div>
+        </a>
+      </div>
+      <div class="contact-icon" title="Location">
+        <a href="https://www.google.com/maps/place/Kakinada,+Andhra+Pradesh" target="_blank">
+          <img src="/images/location-icon.png" alt="Location Icon" class="icon" />
+          <div class="contact-info">
+            <p class="label"><b>Location</b></p>
+            <p class="detail">Kakinada, Andhra Pradesh</p>
+          </div>
+        </a>
+      </div>
+      <div class="contact-icon" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/devisetti-satyaveni" target="_blank">
+          <img src="/images/linkedin.png" alt="LinkedIn Icon" class="icon" />
+          <div class="contact-info">
+            <p class="label"><b>LinkedIn</b></p>
+            <p class="detail">Satyaveni Devisetti</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Satyaveni | All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("age").innerText = new Date().getFullYear() - 2004;
+  </script>
+
+  <script>
+    const toggleBtn = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+    const menuLinks = document.querySelectorAll('.nav-links a');
+  
+    toggleBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      toggleBtn.classList.toggle("open");
+    });
+
+    // Hide navbar when clicking on any nav link
+    menuLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (navLinks.classList.contains('active')) {
+          navLinks.classList.remove('active');
+          toggleBtn.classList.remove('open');
+        }
+      });
+    });
+
+    const pulseCircle = document.getElementById('pulse-circle');
+
+    toggleBtn.addEventListener('click', () => {
+      // Reset animation
+      pulseCircle.classList.remove('animate');
+
+      // Re-trigger after a tiny delay to ensure it restarts
+      void pulseCircle.offsetWidth;
+
+      pulseCircle.classList.add('animate');
+    });
+
+    // Certificates Modal
+    const certImages = document.querySelectorAll('.certificate img');
+    const certModal = document.getElementById('certModal');
+    const certModalImg = document.getElementById('certModalImg');
+    const closeCertBtn = document.getElementById('closeCertBtn');
+
+    certImages.forEach(img => {
+      img.addEventListener('click', () => {
+        certModalImg.src = img.src;
+        certModal.style.display = 'flex';
+      });
+    });
+
+    closeCertBtn.addEventListener('click', () => {
+      certModal.style.display = 'none';
+      certModalImg.src = '';
+    });
+
+    certModal.addEventListener('click', (e) => {
+      if (e.target === certModal) {
+        certModal.style.display = 'none';
+        certModalImg.src = '';
+      }
+    });
+
+    // Achievements Modal
+    const achieveImages = document.querySelectorAll('.achievement-img');
+    const achieveModal = document.getElementById('achieveModal');
+    const achieveModalImg = document.getElementById('achieveModalImg');
+    const closeAchieveBtn = document.getElementById('closeAchieveBtn');
+
+    achieveImages.forEach(img => {
+      img.addEventListener('click', () => {
+        achieveModalImg.src = img.src;
+        achieveModal.style.display = 'flex';
+      });
+    });
+
+    closeAchieveBtn.addEventListener('click', () => {
+      achieveModal.style.display = 'none';
+      achieveModalImg.src = '';
+    });
+
+    achieveModal.addEventListener('click', (e) => {
+      if (e.target === achieveModal) {
+        achieveModal.style.display = 'none';
+        achieveModalImg.src = '';
+      }
+    });
+
+  </script>
+  
+</body>
+</html>
